@@ -28,6 +28,7 @@ public class MtgCollection : IMtgCollection
     {
       System.Console.WriteLine(card);
     }
+    System.Console.WriteLine($"Current value of all cards ${deserializedCollection.Sum(card => card.EbayValue)}");
   }
 
   public void RemoveCardFromCollection()
