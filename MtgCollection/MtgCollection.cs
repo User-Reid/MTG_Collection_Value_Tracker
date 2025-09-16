@@ -1,4 +1,6 @@
 // See https://aka.ms/new-console-template for more information
+using System.Text.Json;
+
 public class MtgCollection : IMtgCollection
 {
   public List<MtgCard> Collection = new();
@@ -41,5 +43,11 @@ public class MtgCollection : IMtgCollection
     {
       System.Console.WriteLine("Your card could not be found.");
     }
+  }
+
+  public void SaveCollection()
+  {
+    var jsonCollection = JsonSerializer.Serialize(Collection);
+    File.WriteAllText("mtg_collection.json", jsonCollection);
   }
 }
