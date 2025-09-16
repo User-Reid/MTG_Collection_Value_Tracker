@@ -1,0 +1,15 @@
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\bin\Debug\net8.0\MTG_Collection_Value_Tracker.exe
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\bin\Debug\net8.0\MTG_Collection_Value_Tracker.deps.json
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\bin\Debug\net8.0\MTG_Collection_Value_Tracker.runtimeconfig.json
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\bin\Debug\net8.0\MTG_Collection_Value_Tracker.dll
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\bin\Debug\net8.0\MTG_Collection_Value_Tracker.pdb
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\obj\Debug\net8.0\MTG_Collection_Value_Tracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\obj\Debug\net8.0\MTG_Collection_Value_Tracker.AssemblyInfoInputs.cache
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\obj\Debug\net8.0\MTG_Collection_Value_Tracker.AssemblyInfo.cs
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\obj\Debug\net8.0\MTG_Collection_Value_Tracker.csproj.CoreCompileInputs.cache
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\obj\Debug\net8.0\MTG_Collection_Value_Tracker.sourcelink.json
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\obj\Debug\net8.0\MTG_Collection_Value_Tracker.dll
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\obj\Debug\net8.0\refint\MTG_Collection_Value_Tracker.dll
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\obj\Debug\net8.0\MTG_Collection_Value_Tracker.pdb
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\obj\Debug\net8.0\MTG_Collection_Value_Tracker.genruntimeconfig.cache
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\obj\Debug\net8.0\ref\MTG_Collection_Value_Tracker.dll

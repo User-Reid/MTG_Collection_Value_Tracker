@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MTG_Collection_Value_Tracker/1.0.0": {
+        "runtime": {
+          "MTG_Collection_Value_Tracker.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MTG_Collection_Value_Tracker/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
