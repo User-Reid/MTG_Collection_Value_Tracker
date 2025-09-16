@@ -11,4 +11,9 @@ public struct MtgCard
     PsaGrade = psaGrade;
     EbayValue = ebayValue;
   }
+
+  public override string ToString()
+  {
+    return $"{Name}: PSA {PsaGrade}, ${EbayValue}";
+  }
 }

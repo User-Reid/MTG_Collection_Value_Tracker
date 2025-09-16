@@ -19,7 +19,10 @@ public class MtgCollection : IMtgCollection
 
   public void SeeCollection()
   {
-
+    foreach (var card in Collection)
+    {
+      System.Console.WriteLine(card);
+    }
   }
 
   public void RemoveCardFromCollection()
