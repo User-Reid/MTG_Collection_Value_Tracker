@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MTG_Collection_Value_Tracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22198582c9275220f0c624908050a0e236a5ed2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5415ceb3f5000d6221284a6d1e03ae9a1e438612")]
 [assembly: System.Reflection.AssemblyProductAttribute("MTG_Collection_Value_Tracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MTG_Collection_Value_Tracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

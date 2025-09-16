@@ -27,6 +27,19 @@ public class MtgCollection : IMtgCollection
 
   public void RemoveCardFromCollection()
   {
-    
+    System.Console.WriteLine("Which card would you like to remove?");
+    SeeCollection();
+    System.Console.WriteLine();
+    var userInput = Console.ReadLine();
+
+    if (Collection.Any(card => card.Name == userInput))
+    {
+      Collection.Remove(Collection.FirstOrDefault(card => card.Name == userInput));
+      System.Console.WriteLine($"{userInput} has been removed from your collection.");
+    }
+    else
+    {
+      System.Console.WriteLine("Your card could not be found.");
+    }
   }
 }
