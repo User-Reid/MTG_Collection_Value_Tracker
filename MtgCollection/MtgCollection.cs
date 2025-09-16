@@ -21,7 +21,10 @@ public class MtgCollection : IMtgCollection
 
   public void SeeCollection()
   {
-    foreach (var card in Collection)
+    var filePath = @"C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\MTG_Collection_Value_Tracker\bin\Debug\net8.0\mtg_collection.json";
+    var json = File.ReadAllText(filePath);
+    var deserializedCollection = JsonSerializer.Deserialize<List<MtgCard>>(json);
+    foreach (var card in deserializedCollection)
     {
       System.Console.WriteLine(card);
     }

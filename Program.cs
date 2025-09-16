@@ -27,6 +27,7 @@ public static class App
         case "a":
           {
             _mtgCollection.AddCardToCollection();
+            _mtgCollection.SaveCollection();
             break;
           }
         case "S":
@@ -39,11 +40,13 @@ public static class App
         case "r":
           {
             _mtgCollection.RemoveCardFromCollection();
+            _mtgCollection.SaveCollection();
             break;
           }
         case "E":
         case "e":
           {
+            _mtgCollection.SaveCollection();
             exitApplication = true;
             break;
           }

@@ -1,9 +1,9 @@
 // See https://aka.ms/new-console-template for more information
-public struct MtgCard
+public class MtgCard
 {
-  public string Name { get; }
-  public int PsaGrade { get; }
-  public int EbayValue { get; }
+  public string Name { get; set; }
+  public int PsaGrade { get; set; }
+  public int EbayValue { get; set; }
 
   public MtgCard(string name, int psaGrade, int ebayValue)
   {
