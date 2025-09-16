@@ -9,7 +9,50 @@ public static class App
   public static void Run(IMtgCollection MtgCollection)
   {
     _mtgCollection = MtgCollection;
+    bool exitApplication = false;
 
-    System.Console.WriteLine("What would you like to do?");
+    do
+    {
+
+      System.Console.WriteLine("What would you like to do?");
+      System.Console.WriteLine("[A]dd a card to your collection.");
+      System.Console.WriteLine("[S]ee your collection.");
+      System.Console.WriteLine("[R]emove a card from your collection.");
+      System.Console.WriteLine("[E]xit application");
+      var userInput = Console.ReadLine();
+
+      switch (userInput)
+      {
+        case "A":
+        case "a":
+          {
+            _mtgCollection.AddCardToCollection();
+            break;
+          }
+        case "S":
+        case "s":
+          {
+            _mtgCollection.SeeCollection();
+            break;
+          }
+        case "R":
+        case "r":
+          {
+            _mtgCollection.RemoveCardFromCollection();
+            break;
+          }
+        case "E":
+        case "e":
+          {
+            exitApplication = true;
+            break;
+          }
+        default:
+          {
+            System.Console.WriteLine("Please choose a valid option.\n");
+            break;
+          }
+      }
+    } while (exitApplication == false);
   }
 }

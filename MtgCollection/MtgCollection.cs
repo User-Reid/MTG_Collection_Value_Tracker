@@ -5,6 +5,16 @@ public class MtgCollection : IMtgCollection
 
   public void AddCardToCollection()
   {
+
+  }
+
+  public void SeeCollection()
+  {
+
+  }
+
+  public void RemoveCardFromCollection()
+  {
     
   }
 }
